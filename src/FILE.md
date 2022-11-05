@@ -43,3 +43,5 @@ MERGE BUG-FIX EXPERIMENTAL INTO BUG-FI
 11. git checkout bug-fix <br>
 11. git merge bug-fix-experimental <br>
 11. git commit -a -m "Commit 11" <br>
+
+12. git commit -a -m "Commit 12" <br>
