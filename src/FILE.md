@@ -14,3 +14,5 @@ BUG-FIX BRANCH
 SWITCH TO BUG-FIX
 3. git checkout bug-fix <br>
 3. git commit -a -m "Commit 3" <br>
+
+4. git commit -a -m "Commit 4" <br>
