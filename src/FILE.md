@@ -7,5 +7,5 @@ cd src
 BUG-FIX BRANCH
 0. git branch bug-fix <br>
 
-1. git add FILE.md <br>
-1. git commit -m "Commit 1" <br>
+1. git commit -a -m "Commit 1" <br>
+2. git commit -a -m "Commit 2" <br>
