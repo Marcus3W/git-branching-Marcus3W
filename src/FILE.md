@@ -50,3 +50,6 @@ MERGE BUG-FIX INTO MASTER
 13. git checkout master
 13. git merge bug-fix <br>
 13. git commit -a -m "Commit 13" <br>
+
+14. git add graph.png FILE.md
+14. git commit -m "Commit 14" <br>
