@@ -18,10 +18,10 @@ SWITCH TO BUG-FIX
 4. git commit -a -m "Commit 4" <br>
 
 NEW BRANCH
-4. git branch bug-fix-experimental
+4. git branch bug-fix-experimental <br>
 
 MERGE BUG-FIX INTO MASTER
-5. git merge --no-ff master
+5. git merge --no-ff master <br>
 5. git commit -a -m "Commit 5" <br>
 
 6. git add FILE.md <br>
@@ -36,5 +36,17 @@ MOVE TO EXPERIMENTAL
 9. git commit -a -m "Commit 9" <br>
 
 MOVE TO MASTER
-10. git checkout master
+10. git checkout master <br>
 10. git commit -a -m "Commit 10" <br>
+
+MERGE BUG-FIX EXPERIMENTAL INTO BUG-FI
+11. git checkout bug-fix <br>
+11. git merge bug-fix-experimental <br>
+11. git commit -a -m "Commit 11" <br>
+
+12. git commit -a -m "Commit 12" <br>
+
+MERGE BUG-FIX INTO MASTER
+13. git checkout master
+13. git merge bug-fix <br>
+13. git commit -a -m "Commit 13" <br>
